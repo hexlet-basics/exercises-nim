@@ -1,23 +1,21 @@
 
-# exercises-template
+# exercises-nim
 
 [![Github Actions Status](../../workflows/Docker/badge.svg)](../../actions)
 
-## Описание
+## How to contribute
 
-Шаблонный репозиторий содержит упражнение `Hello, World!` и базовую структуру, которая используется для всех репозиториев с упражнениями. Используйте команду `make find-todo`, чтобы найти шаблонный код для замены под ваш язык
-
-## Участие
-
-* Обсуждение в канале #hexlet-volunteers слака http://slack-ru.hexlet.io
+* Discussions at #hexlet-volunteers Slack channel http://slack.hexlet.io
 
 ## Develop
 
-```sh
+```bash
 # setup
 make
 # run
 make compose
+# check
+make ci-check
 
 # run tests
 make compose-test
@@ -26,14 +24,12 @@ make compose-test
 make compose-code-lint
 make compose-description-lint
 make compose-schema-validate
-
-make ci-check # run CI checks witn docker-compose
 ```
 
 ##
 
-[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=exercises-nim)
+[![Hexlet Ltd. logo](https://raw.githubusercontent.com/Hexlet/assets/master/images/hexlet_logo128.png)](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=exercises-nim)
 
-This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io/pages/about?utm_source=github&utm_medium=link&utm_campaign=exercises-nim).
-nim
-See most active contributers on [hexlet-friends](https://friends.hexlet.io/).
+This repository is created and maintained by the team and the community of Hexlet, an educational project. [Read more about Hexlet](https://hexlet.io/?utm_source=github&utm_medium=link&utm_campaign=exercises-nim).
+##
+See most active contributors on [hexlet-friends](https://friends.hexlet.io/).
