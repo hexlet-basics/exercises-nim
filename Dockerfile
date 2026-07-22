@@ -1,12 +1,9 @@
 FROM hexletbasics/base-image:latest
 
-# TODO: replace exercises-template with "exercises-<language>"
-WORKDIR /exercises-template
+RUN apt-get update && apt-get install -y nim
 
-# https://github.com/pgrange/bash_unit
-RUN cd /usr/local/bin && curl -s https://raw.githubusercontent.com/pgrange/bash_unit/master/install.sh | bash
+WORKDIR /exercises-nim
 
 COPY . .
 
-# TODO: replace
-ENV PATH=/exercises-template/bin:$PATH
+ENV PATH=/exercises-nim/bin:$PATH
