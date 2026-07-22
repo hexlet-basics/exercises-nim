@@ -21,7 +21,6 @@ compose-code-lint:
 	docker-compose run exercises make code-lint
 
 code-lint:
-	# TODO: add linter
 	echo "code-lint"
 
 compose-description-lint:

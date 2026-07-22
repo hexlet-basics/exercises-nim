@@ -1,6 +1,10 @@
+---
+
 language:
-  # TODO: replace exercises-template with "exercises-<language>"
-  docker_image: "ghcr.io/hexlet-basics/exercises-template"
-  extension: sh # TODO: replace
-  exercise_filename: index.sh # TODO: replace
-  exercise_test_filename: test_index.sh # TODO: replace
+  docker_image: "ghcr.io/hexlet-basics/exercises-nim"
+  extension: nim
+  exercise_filename: index.nim
+  exercise_test_filename: test.nim
+  learn_as: first_language
+  progress: in_development
+  name: Nim
